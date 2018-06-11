@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+  <form-beans>
+    <form-bean name="loginForma" 
+                type="view.loginForm"/>
+    <form-bean name="CrudForma" 
+                type="view.CrudForm"/>
+  </form-beans>
+  
+  <action-mappings>
+      <action path="/inicioSesion" 
+                type="view.loginAction"
+                name="loginForma"
+                scope="request"
+                input="/Login.jsp"
+                validate="true" > 
+               <forward name="respuesta"
+                        path="/Crud.jsp" />
+              <forward name="inicio"
+                        path="/Login.jsp" />
+        </action>
+        
+        <action path="/vuelta" 
+                type="view.CrudAction"
+                name="CrudForma"
+                scope="request"
+                input="/Crud.jsp"
+                validate="true" > 
+               <forward name="Crud"
+                        path="/Crud.jsp" />
+        </action>
+ 
+  </action-mappings>
+  
+  <message-resources parameter="view.ApplicationResources"/>
+</struts-config>

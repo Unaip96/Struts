@@ -1,0 +1,163 @@
+BODY
+{
+  margin:0 auto;
+  BACKGROUND-COLOR: #aac8f7;
+  COLOR: black;
+  FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+#login{
+  margin:0 auto;
+  border:3px solid black;
+  width:75%;
+  padding:20px;
+}
+H1
+{
+  COLOR: navy;
+  FONT-FAMILY: Arial, Helvetica, sans-serif;
+  FONT-SIZE: x-large;
+  FONT-WEIGHT: bolder;
+  TEXT-TRANSFORM: capitalize;
+}
+H2
+{
+  text-align:center;
+  margin-top:50px;
+  COLOR: navy;
+  FONT-FAMILY: Arial, Helvetica, sans-serif;
+  FONT-SIZE: large;
+  FONT-WEIGHT: bolder;
+  TEXT-TRANSFORM: capitalize;
+}
+H3
+{
+  COLOR: navy;
+  FONT-FAMILY: Arial, Helvetica, sans-serif;
+  FONT-SIZE: large;
+  FONT-WEIGHT: lighter;
+  TEXT-TRANSFORM: capitalize;
+}
+#enviar{
+  margin:0 auto;
+  margin-left:43%;
+}
+div{
+  background-color:#eddbce;
+  width:500px;
+}
+div *{
+  margin:0 auto;
+}
+#cont{
+  width:400px;
+  margin-top:50px;
+}
+.campo{
+  float:right;
+}
+#dialog-confirm{
+  visibility:hidden;
+  position:absolute;
+  width:100px;
+  margin:auto;
+  border:3px solid black;
+  display:block;
+}
+.hide-close .ui-dialog-titlebar-close { 
+  display: none;
+  border:3px solid black;
+  }
+.boton,button{
+  color:white;
+  background-color:grey;
+  width:200px;
+  height:50px;
+  font-size:20px;
+  border-radius:20px;
+  margin:0 auto;
+}
+.ui-dialog-titlebar{
+  width:300px;
+  margin:0 auto;
+  }
+.ui-dialog-buttonset,.ui-dialog-buttonpane{
+  width:50px;
+  margin:20px 0px;
+  margin-left:25%;
+}
+img{
+  float:right;
+  width:50px;
+  }
+#cerrarSesion{
+  float:right;
+  margin-left:100%;
+}
+.ui-dialog{
+  
+  border:3px solid black;
+}
+#campos{
+  margin:50px auto 50px 15%;
+  width:80%;
+  display:block;
+}
+#campos *{
+  margin:0 auto;
+  width:200px;
+}
+#id{
+  width:50px;
+}
+#nombre,#ap1,#passw{
+  width:100px;
+}
+#buscar{
+  width:60px;
+}
+#acciones{
+  width:70%;
+  margin-left:25%;
+  display:block;
+}
+#buscar{
+  background-color:silver;
+  border-radius:100%;
+  padding:12px 10px 12px 17px;
+  border:1px solid black;
+  top:22%;
+  right:15%;
+  position:absolute;
+}
+.texto{
+  background-color:#f3f7de;
+  padding:7px;
+  border-radius:5px;
+  text-align:center;
+  border:1px solid black;
+}
+.texto:hover{
+  border-width:2px;
+  padding:5px;
+}
+.texto:active{
+  border-color:#7ca3e2;
+  border-width:2px;
+  padding:5px;
+}
+table,tr, td,th{
+  border:2px solid black;
+  border-collapse:collapse;
+}
+tr{
+  cursor:pointer;
+  background-color:#d2d4d8;
+}
+td{
+  text-align:center;
+  padding:5px;
+}
+table{
+  width:80%;
+  margin-top:20px;
+}
